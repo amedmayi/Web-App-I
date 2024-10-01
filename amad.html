@@ -3,14 +3,15 @@
 <head>
     <title>Document</title>
 </head>
+<!--The following block displays the heading of the page-->
 <body>
-<div style="background color: green; padding: 10px; text-align: center;">
+<div style="background-color: lightblue; padding: 10px; text-align: center;">
     <h1>Welcome to Amed's Personal Webpage
      </h1> 
 </div>
-
+<!--Didplayd the left sidebar with its content-->
 <div class="flex" style="display: flex; justify-content: space-between; margin: 20px;">
-<div style="background-color: lightblue; padding: 20px; width: 30%;">
+<div style="background-color: teal; padding: 20px; width: 30%;">
      <hr>
      <h2><span>About Me</span></h2>
      <p> I am a CSIT student at The American University of Kurdistan and have a passion for coding.</p>
@@ -28,53 +29,32 @@
         <li>Research Papers</li>
     </ol>
     </div>
-    <div style="background-color: teal; padding: 20px; width: 40%;">
-    <h2><span>Course Work</span></h2>
-    <p> Here is a table showing some of the courses I've taken:
-    </P>
-    <table border="1" style="width: 100%; text-align: center;">
-        <tr>
-            <th style="background-color: beige;"><b>Course Name</b></th>
-            <th style="background-color: beige;"><b>Instructor</b></th>
-            <th style="background-color: beige;"><b>Year</b></th>
-        </tr>
-        <tr>
-            <td>Introduction to Programming</td>
-            <td>Prof. Shammal</td>
-            <td>2024</td>
-        </tr>
-        <tr>
-            <td>Research Methods</td>
-            <td>Prof. Dara</td>
-            <td>2024</td
-         </tr>
-        <tr>
-            <td>Web Application Development I</td>
-            <td>Prof. Shammal</td>
-            <td>2024</td>
-         </tr>
-    </table>
+    <!--Displays the middle bar containing a video with a title and description-->
+    <div style="background-color: beige; padding: 20px; width: 40%;">
+    <h2>Kurdish National Anthem</h2>
+    <iframe src="file:///C:/Users/HP/Downloads/national_anthem.mp4" controls autoplay height="300px" width="100%" title="Kurdish National Anthem"></iframe>
+    <h4>The video above is the Kurdish national anthem with lyrics displayed in both Kurdish and English. The lyrics hold a deep meaning and gets to the heart and soul of every Kurd while they hold their right hand on their heart and sing the lyrics with heartfelt passion.</h4>
     </div>
-
-    <div style="background-color: lightblue; padding: 20px; width: 25%;">
+    <!--Displays the right sidebar with its content-->
+    <div style="background-color: teal; padding: 20px; width: 25%;">
     <h2><span>Contact Me</span></h2>
     <form action="/submit" method="post">
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" <br><br>
+        <input type="text" id="name" name="name" ><br><br>
         
 
         <label for="email">Email:</label>
         <input type="email" id="email" name="email"><br><br>
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea> <br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" style="height: 100px; width: 100%;"></textarea> <br><br>
             <input type="submit" value="Submit">
 
     </form>
    </div>
 
     </div>
-
+    <!--Displays the footer(bottom of the page) with its content-->
     <footer style="background-color: beige; text-align: center; padding: 10px;">
     <h2><span>Photo Gallery</span></h2>
     <p>Here are some photos of my favorite activities:
@@ -86,5 +66,3 @@
         
         <p> © 2024 Amad Mohammed Salim. All rights reserved.</p>
         </footer>
-</body>
-</html>
